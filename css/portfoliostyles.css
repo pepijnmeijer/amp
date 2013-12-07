@@ -1,0 +1,99 @@
+
+/*----------------------------
+	Filter bar
+-----------------------------*/
+
+
+nav#filter {
+    font-size:14px;
+	  display: block;
+	  position: relative;
+	  text-align:center;
+    margin: 0 auto 0 auto;
+    text-decoration:none;
+}
+
+nav#filter:before, nav#filter:after {
+	position: absolute;
+	top: 0;
+}
+
+nav#filter:before {
+	left: -78px;
+}
+
+nav#filter:after {
+	right: -78px;
+}
+
+nav#filter a{
+	color: #999;
+	display: inline-block;
+	line-height: 16px;
+	margin: 0 7px;
+	border:none;
+}
+
+nav#filter a:hover{
+    color: #777;
+	border-bottom:1px solid;
+}
+
+nav#filter a.active{
+	color: #466271;
+	text-decoration: none;
+}
+
+
+/*----------------------------
+	Content area
+-----------------------------*/
+
+
+section#container_gallery {
+position: relative;
+text-align:center;
+margin: 30px auto 0 auto;
+padding: 0;
+border: none;
+}
+
+section#container_gallery li{
+display: block; 
+width:376px;
+height:230px; 
+float: left; 
+padding: 0; 
+overflow: hidden;
+margin: 0;
+}
+
+section#container_gallery ul{
+overflow:hidden;
+margin: 0 auto 0 auto;
+}
+
+section#container_gallery ul.hidden{
+display:none;
+}
+
+ul#stage{
+max-width: 1134px;
+}
+
+ul#stage li a{ 
+display: block; 
+width:376px;
+height:230px; 
+overflow: hidden; 
+
+}
+
+ul#stage li a:hover{
+display: block; 
+width:376px;
+height:230px; 
+overflow: hidden; 
+}
+
+
